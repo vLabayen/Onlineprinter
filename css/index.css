@@ -1,0 +1,27 @@
+.column {
+	float: left;
+	width: 50%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 75%;
+}
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+td button {
+	width : 50%;
+	height : 25px;
+}
+tr:nth-child(even) {
+	background-color: #d0d0d0;
+}
